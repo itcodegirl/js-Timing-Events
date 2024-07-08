@@ -1,0 +1,21 @@
+body {
+	display: block;
+	background-color: #282c34;
+	color: #abb2bf;
+	justify-content: center;
+	align-items: center;
+	overflow-y: auto;
+	overflow-x: auto;
+	margin: 0 10px;
+}
+
+#timeEvents {
+	display: block;
+	padding: 5px 8px;
+	border-radius: 4px;
+	min-width: 200px;
+	margin: 35px 0;
+	font-family: "Sofia Sans Semi Condensed", sans-serif;
+	color: blue;
+	background-color: #abb2bf;
+}
