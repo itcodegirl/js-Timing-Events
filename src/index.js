@@ -9,7 +9,7 @@
 //The setTimeout() method calls a function or evaluates an expression after a specified number of milliseconds.
 //First Example of setTimeout
 function sayHello() {
-	let helloBox = document.querySelector('#hello8');
+	let helloBox = document.querySelector('#hello');
 	helloBox.innerHTML = 'Bonjour le monde';
 }
 
@@ -65,6 +65,8 @@ setInterval(function () {
 clearInterval(3000);
 
 //Example of using setTimeout() and setInterval() together
+//This function will display the message 'Namaste Duniya!' after 3 seconds and 
+//the current date and time will be displayed every second.
 
 function sayHello() {
 	let helloBox = document.querySelector('#hello7');

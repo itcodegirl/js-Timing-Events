@@ -29,7 +29,7 @@ h1 {
 }
 
 #timeEvents {
-	display: inline-block;
+	display: inline-block ;
 	padding: 5px 8px;
 	border-radius: 4px;
 	min-width: 200px;
