@@ -1,5 +1,5 @@
 body {
-	display: block;
+	display: inline-block;
 	background-color: #282c34;
 	color: #abb2bf;
 	justify-content: center;
@@ -7,10 +7,29 @@ body {
 	overflow-y: auto;
 	overflow-x: auto;
 	margin: 0 10px;
+	font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 40px;
+	margin: 35px 0;
+}
+
+#date {
+	display: inline-block;
+	padding: 5px 8px;
+	border-radius: 4px;
+	min-width: 200px;
+	margin: 35px 0;
+	font-family: "Sofia Sans Semi Condensed", sans-serif;
+	color: blue;
+	background-color: #abb2bf;
+	font-size: 25px;
 }
 
 #timeEvents {
-	display: block;
+	display: inline-block;
 	padding: 5px 8px;
 	border-radius: 4px;
 	min-width: 200px;
